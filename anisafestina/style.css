@@ -72,7 +72,7 @@ section {
 
 .movies {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 20px;
   margin-bottom: 40px;
 }
@@ -251,4 +251,62 @@ header{
     border-radius: 15px;
 
     box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.book-btn {
+  width: 100%;
+  padding: 14px;
+  margin-top: 15px;
+  background: linear-gradient(135deg, #ff3b3b, #ff5e5e);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 6px 15px rgba(255, 0, 0, 0.25);
+}
+
+.book-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(255, 0, 0, 0.35);
+}
+
+.book-btn:active {
+  transform: scale(0.98);
+}
+
+.footer {
+    margin-top: 50px;
+    padding: 40px 20px;
+    background: rgba(0,0,0,0.8);
+    border-top: 2px solid #ff0000;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.footer-box {
+    margin: 10px;
+}
+
+.footer-box h3 {
+    color: #ff0000;
+    margin-bottom: 10px;
+}
+
+.footer-box p {
+    color: #ccc;
+    font-size: 14px;
+}
+
+.copyright {
+    text-align: center;
+    padding: 15px;
+    background: black;
+    color: #777;
+    font-size: 13px;
 }

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cinema Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+<header>
+    <h1>🎬 Cinema Support Center</h1>
+    <p>We are here to help you 24/7</p>
+</header>
+
+<section class="hero">
+    <h2>Get in Touch</h2>
+    <p>Choose how you want to contact us</p>
+</section>
+
+<section class="contact-grid">
+
+    <div class="card">
+        <div class="icon">📩</div>
+        <h3>Email Support</h3>
+        <p>support@cinema.com</p>
+    </div>
+
+    <div class="card">
+        <div class="icon">📞</div>
+        <h3>Phone</h3>
+        <p>+383 44 123 456</p>
+    </div>
+
+    <div class="card">
+        <div class="icon">📍</div>
+        <h3>Location</h3>
+        <p>Prishtina, Kosovo</p>
+    </div>
+
+</section>
+
+<section class="form-section">
+
+    <h2>Send a Message</h2>
+
+    <input id="name" type="text" placeholder="Your name">
+    <input id="email" type="email" placeholder="Your email">
+    <textarea id="message" placeholder="Your message"></textarea>
+
+    <button onclick="sendMessage()">Send Message</button>
+
+    <p id="result"></p>
+
+</section>
+
+<script src="contact.js"></script>
+</body>
+</html>

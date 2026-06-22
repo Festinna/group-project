@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cinema Booking</title>
+    <link rel="stylesheet" href="movies.css">
+</head>
+<body>
+
+    <h1>🎬 Cinema Booking System</h1>
+
+    <div class="container">
+
+        <div class="sidebar">
+            <h2>Category</h2>
+            <button onclick="showCategory('Action Movies')">Action Movies</button>
+            <button onclick="showCategory('Adventure Movies')">Adventure  Movies</button>
+            <button onclick="showCategory('Comedy Movies')">Comedy  Movies</button>
+            <button onclick="showCategory('Horror Movies')">Horror  Movies</button>
+            <button onclick="showCategory('Drama Movies')">Drama  Movies</button>
+            <button onclick="showCategory('Crime/Thriller Movies')">Crime/Thriller  Movies</button>
+            <button onclick="showCategory('Must Watch Movies')">Must Watch  Movies</button>
+            
+        </div>
+
+       <div class="main">
+    <h2 id="categoryTitle">Select a category</h2>
+
+    <div id="movies" class="movies"></div>
+
+    <div id="bookingBox" class="booking hidden">
+        <h3>🎟 Ticket Booking</h3>
+
+        <p id="selectedMovie">Selected movie:</p>
+
+        <input type="text" id="name" placeholder="Your name">
+        <input type="number" id="seats" placeholder="Number of tickets">
+
+        <button onclick="bookTicket()">Confirm Booking</button>
+
+        <p id="result"></p>
+    </div>
+</div>
+    </div>
+
+    <script src="movies.js"></script>
+</body>
+</html>
