@@ -1,13 +1,10 @@
 body {
     margin: 0;
     font-family: Arial;
-
     background: url("https://images.unsplash.com/photo-1524985069026-dd778a71c7b4") no-repeat center center/cover;
-
     color: white;
     text-align: center;
 }
-
 
 body::before {
     content: "";
@@ -26,7 +23,6 @@ h1 {
     text-shadow: 0 0 10px black;
 }
 
-
 .box {
     width: 300px;
     margin: 40px auto;
@@ -37,7 +33,6 @@ h1 {
     box-shadow: 0 0 20px rgba(255,0,0,0.4);
 }
 
-
 input, select {
     width: 90%;
     padding: 10px;
@@ -46,7 +41,6 @@ input, select {
     border: 1px solid red;
     color: white;
 }
-
 
 button {
     width: 100%;
@@ -60,7 +54,6 @@ button {
 button:hover {
     background: darkred;
 }
-
 
 #result {
     margin-top: 10px;

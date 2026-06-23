@@ -139,10 +139,10 @@ input {
     padding:50px 20px;
 }
 
-#movies h1{
+#movies h3{
     text-align:center;
     margin-bottom:30px;
-    font-size:50px;
+    font-size:30px;
 }
 
 #movies h2{
