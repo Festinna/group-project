@@ -1,5 +1,4 @@
 function book() {
-
     const time = document.getElementById("time").value;
     const seat = document.getElementById("seat").value;
     const tickets = document.getElementById("tickets").value;
@@ -10,5 +9,5 @@ function book() {
     }
 
     document.getElementById("result").innerText =
-        "🎟 Booked " + tickets + " ticket(s) | Seat: " + seat + " | Time: " + time;
+        " Booked " + tickets + " ticket(s) | Seat: " + seat + " | Time: " + time;
 }

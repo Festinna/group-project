@@ -26,7 +26,7 @@ function showCategory(category) {
         div.onclick = () => {
             selectedMovie = movie;
             document.getElementById("bookingBox").classList.remove("hidden");
-            document.getElementById("selectedMovie").innerText = "Filmi: " + movie;
+            document.getElementById("selectedMovie").innerText = "Movie: " + movie;
         };
 
         moviesDiv.appendChild(div);
