@@ -38,12 +38,12 @@ function bookTicket() {
     const seats = document.getElementById("seats").value;
 
     if (!name || !seats) {
-        alert("Plotëso të gjitha fushat!");
+        alert("Fill in all fields!");
         return;
     }
 
     document.getElementById("result").innerText =
-        `✔ ${name}, ke rezervuar ${seats} bileta për "${selectedMovie}"`;
+        ` ${name}, you have reserved ${seats} ticekts for "${selectedMovie}"`;
 
     document.getElementById("name").value = "";
     document.getElementById("seats").value = "";
