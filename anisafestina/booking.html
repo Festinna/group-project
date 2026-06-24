@@ -2,28 +2,43 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Cinema Booking</title>
 <link rel="stylesheet" href="booking.css">
 </head>
 
 <body>
 
-<h1>CineMax</h1>
+
+
+
+<nav class="navbar">
+    <div class="logo">🎬 Cinema Booking</div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<h1> Cinema Booking</h1>
 
 <div class="box">
 
-    <h3> Time</h3>
+    <h3>Movie Time</h3>
     <select id="time">
         <option>18:00</option>
         <option>20:30</option>
         <option>22:45</option>
     </select>
 
-    <h3> Seat</h3>
+    <h3>Seat Number</h3>
     <input type="text" id="seat" placeholder="e.g. A10">
 
-    <h3> Tickets</h3>
-    <input type="number" id="tickets" placeholder="How many">
+    <h3>Tickets</h3>
+    <input type="number" id="tickets" placeholder="How many tickets">
 
     <button onclick="book()">Book Ticket</button>
 
@@ -31,6 +46,9 @@
 
 </div>
 
+
+
 <script src="booking.js"></script>
+
 </body>
 </html>
