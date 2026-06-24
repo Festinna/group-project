@@ -6,15 +6,10 @@ font-family: cursive;
 }
 
 
-
 body{
 background:#050505;
 color:white;
 }
-
-
-
-
 
 .navbar{
 height:75px;
@@ -29,8 +24,6 @@ background:rgba(0,0,0,.85);
 backdrop-filter:blur(15px);
 z-index:20;
 }
-
-
 
 .logo{
 font-size:30px;
