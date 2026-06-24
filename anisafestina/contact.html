@@ -2,57 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cinema Contact</title>
     <link rel="stylesheet" href="contact.css">
 </head>
 <body>
 
-<header>
-    <h1>Cinema Support Center</h1>
-    <p>We are here to help you 24/7</p>
-</header>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">🎬 CineMax</div>
+        <ul class="nav-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
 
-<section class="hero">
-    <h2>Get in Touch</h2>
-    <p>Choose how you want to contact us</p>
-</section>
+    <!-- Header -->
+    <header>
+        <h1>Cinema Support Center</h1>
+        <p>We are here to help you 24/7</p>
+    </header>
 
-<section class="contact-grid">
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Get in Touch</h2>
+        <p>Choose how you want to contact us</p>
+    </section>
 
-    <div class="card">
-        <div class="icon">📩</div>
-        <h3>Email Support</h3>
-        <p>cinemax123@gmail.com</p>
-    </div>
+    <!-- Contact Cards -->
+    <section class="contact-grid">
 
-    <div class="card">
-        <div class="icon">📞</div>
-        <h3>Phone</h3>
-        <p>+383 44 123 456</p>
-    </div>
+        <div class="card">
+            <div class="icon">📩</div>
+            <h3>Email Support</h3>
+            <p>cinemax123@gmail.com</p>
+        </div>
 
-    <div class="card">
-        <div class="icon">📍</div>
-        <h3>Location</h3>
-        <p>Prishtinë, Kosovë</p>
-    </div>
+        <div class="card">
+            <div class="icon">📞</div>
+            <h3>Phone</h3>
+            <p>+383 44 123 456</p>
+        </div>
 
-</section>
+        <div class="card">
+            <div class="icon">📍</div>
+            <h3>Location</h3>
+            <p>Prishtinë, Kosovë</p>
+        </div>
 
-<section class="form-section">
+    </section>
 
-    <h2>Send a Message</h2>
+    <!-- Contact Form -->
+    <section class="form-section">
 
-    <input id="name" type="text" placeholder="Your name">
-    <input id="email" type="email" placeholder="Your email">
-    <textarea id="message" placeholder="Your message"></textarea>
+        <h2>Send a Message</h2>
 
-    <button onclick="sendMessage()">Send Message</button>
+        <input id="name" type="text" placeholder="Your name">
+        <input id="email" type="email" placeholder="Your email">
+        <textarea id="message" placeholder="Your message"></textarea>
 
-    <p id="result"></p>
+        <button onclick="sendMessage()">Send Message</button>
 
-</section>
+        <p id="result"></p>
 
-<script src="contact.js"></script>
+    </section>
+
+    <script src="contact.js"></script>
+
 </body>
 </html>
